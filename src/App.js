@@ -2,6 +2,10 @@
 
 // 1ST IMPORT
 import React from 'react';
+import Main from './Main';
+import Header from './Header';
+import Footer from './Footer';
+// import HornedBeast from './HornedBeast';
 
 
 // 2ND CREATE OUR CLASS COMPONENT
@@ -12,6 +16,7 @@ class App extends React.Component {
         <Header />
         <Main />
         <Footer />
+        {/* <HornedBeast /> */}
       </>
     )
   }
@@ -19,3 +24,4 @@ class App extends React.Component {
 
 
 //3RD EXPORT THE CLASS FOR OTHER FILES TO USE
+export default App;
