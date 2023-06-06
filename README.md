@@ -77,20 +77,20 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 5:20pm (EST)
 
-Finish time: 
+Finish time: 5:50pm (EST)
 
-Actual time needed to complete: 
+Actual time needed to complete: 30 minutes
 
 
 ### Feature # 2 Allow Users to Favorite Individual Beasts:
 
 Estimate of time needed to complete: 2 hours
 
-Start time: 5:15pm (EST)
+Start time: 6 pm (EST)
 
-Finish time: 
+Finish time: 6:30 (EST)
 
-Actual time needed to complete: 
+Actual time needed to complete: 30 minutes
 
 
 ### Feature # 3 Bootstrap:
