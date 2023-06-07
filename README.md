@@ -97,9 +97,9 @@ Actual time needed to complete: 30 minutes
 
 Estimate of time needed to complete: 2 hours
 
-Start time: 
+Start time: 6:40 pm (EST)
 
-Finish time: 
+Finish time: 8 pm (EST)
 
-Actual time needed to complete: 
+Actual time needed to complete: 1 hour and 20 min.
 

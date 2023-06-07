@@ -1,9 +1,11 @@
 import React from 'react';
+import './css/Footer.css'
+
 
 
 class Footer extends React.Component {
   render() {
-    return <footer>Author: Jennifer Sung</footer>
+    return <footer><p>Author: Jennifer Sung</p></footer>
   }
 }
 
