@@ -32,7 +32,7 @@ class HornedBeast extends React.Component {
         />
         <Button variant="primary" onClick={this.handleHeart}>Click to Favorite</Button>
         <p> 😈 {this.state.heart} Number of Favorites</p>
-        <p>{this.props.description}</p>
+        {/* <p>{this.props.description}</p> */}
       </Card>
       </div>
       </main>
