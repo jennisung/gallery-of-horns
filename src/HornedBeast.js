@@ -21,8 +21,6 @@ class HornedBeast extends React.Component {
 
   render() {
     return (
-      <main>
-        <div className="card-container">
       <Card onClick={() => this.props.handleOpenModal(this.props.title)}>
         <h2>{this.props.title}</h2>
         <img 
@@ -34,8 +32,6 @@ class HornedBeast extends React.Component {
         <p> 😈 {this.state.heart} Number of Favorites</p>
         {/* <p>{this.props.description}</p> */}
       </Card>
-      </div>
-      </main>
     );
   }
 }

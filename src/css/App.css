@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.title-form {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+
+/* FORMS CSS */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin: 20px;
+}
+
+
+.form-select {
+  width: 300px;
+}

@@ -1,10 +1,21 @@
-main {
+/* main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: rgb(0, 0, 0);
 
+} */
+
+@keyframes animatedBackground {
+  0% { background-color: rgb(0, 0, 0); }
+  50% { background-color: rgb(221, 105, 221); }
+  100% { background-color: rgb(0, 0, 0); }
 }
 
-
+main {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  animation: animatedBackground 5s linear infinite;
+}
 

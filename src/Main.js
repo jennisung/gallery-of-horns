@@ -8,7 +8,7 @@ class Main extends React.Component {
     return (
       <main>
         <Card>
-
+          
           {this.props.animals.map(animalObj => (
             <HornedBeast 
               key={animalObj.title}
