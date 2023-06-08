@@ -1,4 +1,3 @@
-// HornedBeast.js
 import React from 'react';
 import './css/HornedBeast.css';
 import Button from 'react-bootstrap/Button';
@@ -22,21 +21,24 @@ class HornedBeast extends React.Component {
 
   render() {
     return (
-      <Card onClick={() => this.props.handleOpenModal(this.props.title)} style={{ width: '18rem' }}>
+      <main>
+        <div className="card-container">
+      <Card onClick={() => this.props.handleOpenModal(this.props.title)}>
         <h2>{this.props.title}</h2>
         <img 
           src={this.props.img_url}
           alt={this.props.title}
           title={this.props.title}
         />
-        <Button variant="dark" onClick={this.handleHeart}>Click to Favorite</Button>
-        <p>😈 {this.state.heart} Number of Favorites</p>
+        <Button variant="primary" onClick={this.handleHeart}>Click to Favorite</Button>
+        <p> 😈 {this.state.heart} Number of Favorites</p>
         <p>{this.props.description}</p>
       </Card>
+      </div>
+      </main>
     );
   }
 }
 
 export default HornedBeast;
-
 

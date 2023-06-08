@@ -61,5 +61,4 @@ class App extends React.Component {
 }
 
 
-//3RD EXPORT THE CLASS FOR OTHER FILES TO USE
 export default App;

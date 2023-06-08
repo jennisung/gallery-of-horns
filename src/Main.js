@@ -1,4 +1,3 @@
-// Main.js
 import React from 'react';
 import HornedBeast from './HornedBeast';
 import './css/Main.css';
@@ -9,7 +8,7 @@ class Main extends React.Component {
     return (
       <main>
         <Card>
-          {/* Render HornedBeast components */}
+
           {this.props.animals.map(animalObj => (
             <HornedBeast 
               key={animalObj.title}
