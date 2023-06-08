@@ -5,7 +5,7 @@ import './css/Footer.css'
 
 class Footer extends React.Component {
   render() {
-    return <footer><p>Author: Jennifer Sung</p></footer>
+    return <footer><p>@Jennifer Sung</p></footer>
   }
 }
 

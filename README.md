@@ -46,6 +46,18 @@ Finish time: 8:30 pm (EST)
 
 Actual time needed to complete: 2 hours and 30 minutes
 
+## June-08-2023
+
+### Feature #1: Filter by Numbers of Horns
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 5:30 pm (EST)
+
+Finish time: 6:30 (EST)
+
+Actual time needed to complete: 1 hour
+
 
 # Getting Started with Create React App
 

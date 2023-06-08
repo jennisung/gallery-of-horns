@@ -1,6 +1,25 @@
+/* .header {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Press Start 2P', cursive;
+}   */
+
 .header {
   text-align: center;
   padding: 40px;
   font-family: 'Press Start 2P', cursive;
-}  
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 
