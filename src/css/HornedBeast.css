@@ -1,6 +1,7 @@
-
 .card {
  margin: 10px;
+ width: 18rem;
+margin: auto;
 }
 
 .card h2 {
@@ -25,7 +26,9 @@ img {
   width: auto;
 }
 
-
+.btn-primary {
+  margin: 20px;
+}
 
 
 

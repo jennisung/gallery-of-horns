@@ -10,7 +10,7 @@ class SelectedBeast extends React.Component {
     if (!selectedAnimal || !selectedAnimal.image_url) {
       return null;
     }  
-    // Code above is from CHATGBT
+    // Code above is taken from CHATGBT
 
     return (
       <Modal show={showModal} onHide={handleCloseModal}>
